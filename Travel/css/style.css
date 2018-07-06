@@ -1,0 +1,157 @@
+.set-bg {
+    background-color: #e2e2e2;
+}
+
+.clear-pdmg {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background:url(../images/background.png) fixed center;
+}
+
+.SelectTravelP {
+    font-size: 72px;
+
+}
+
+.SelectTravelP-block {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 160px;
+}
+
+.travelSelect img {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.travelSelect {
+    padding: 0;
+    text-align: center;
+}
+
+.travelSelect p {
+    line-height: 0.5;
+    color: #cbcbcb;
+}
+.st-name {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow:
+            -0   -1px 0   #000000,
+            0   -1px 0   #000000,
+            -0    1px 0   #000000,
+            0    1px 0   #000000,
+            -1px -0   0   #000000,
+            1px -0   0   #000000,
+            -1px  0   0   #000000,
+            1px  0   0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000;
+    opacity: 1;
+}
+/*.travelSelect button {
+    position: relative;
+    top: 328px;
+    z-index: 2;
+}*/
+.ts-bg {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.ts-bg:hover {
+    opacity: 1;
+
+}
+
+.col-st-text a {
+    background-color: red;
+    color: #fff;
+    height: 24px;
+    width: 48px;
+    display: inline-block;
+}
+.st-ct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.trailer-text-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: right;
+}
+#trailer-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.image-text-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 720px;
+}
+
+.image-text-block span {
+    color: #fff;
+    font-size: 1.9em;
+    padding: 240px;
+}
+.comments-block {
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#container1 {
+    height: 620px;
+}
+
+#container2 {
+    height: 940px;
+}
+
+.footer {
+    color: #fff;
+    background-color: #343a40!important;
+}
+
+.footer a {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+}
+.footer a:hover {
+    color: rgba(255,255,255,1);
+}
